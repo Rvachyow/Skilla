@@ -1,0 +1,30 @@
+.sortbtn {
+  display: flex;
+  align-items: baseline;
+  color: #5e7793;
+
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  .filterName {
+    margin-right: 4px;
+  }
+}
+.popup {
+  width: 204px;
+  min-height: 220px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #eaf0fa;
+  border-radius: 4px;
+  z-index: 50;
+}
+.popupTitle {
+  color: #002cfb;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 6px 20px 6px 20px;
+}

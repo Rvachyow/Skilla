@@ -1,0 +1,21 @@
+.tableitem {
+  width: 100%;
+  border-top: 1px solid #eaf0fa;
+  color: #122945;
+  height: 64px;
+  :last-child {
+    text-align: end;
+    padding: 10px 40px 10px 40px;
+  }
+  cursor: pointer;
+  &:hover {
+    background-color: #f1f4f9;
+    box-shadow: 0px 4px 5px gray;
+  }
+  td {
+    text-align: start;
+  }
+  .avatar {
+    max-height: 38px;
+  }
+}

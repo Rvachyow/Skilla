@@ -1,0 +1,120 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 15px;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+}
+.tables {
+  margin-top: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 48px;
+  .info__balance {
+    border-radius: 48px;
+    display: flex;
+    padding: 8px 15px;
+    background-color: white;
+    align-items: center;
+    gap: 5px;
+    .text {
+      color: #899cb1;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .number {
+      color: black;
+      font-weight: 700;
+    }
+  }
+}
+.info__day {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .before {
+    transform: rotate(180deg);
+  }
+}
+.infoLogo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  p {
+    color: #005ff8;
+    font-size: 16px;
+  }
+}
+.tables__filter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+  align-items: center;
+  .tables__search {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #5e7793;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    img {
+      position: absolute;
+      left: 18px;
+    }
+    input {
+      padding: 12px 46px 12px 46px;
+      &::placeholder {
+        color: #5e7793;
+      }
+      &:focus {
+        border: 1px solid blue;
+        border-radius: 48px;
+      }
+    }
+  }
+}
+
+.tables__buttons {
+  display: flex;
+  gap: 32px;
+}
+.tables__table {
+  width: 100%;
+  margin-top: 15px;
+  padding: 28px 0px;
+  background-color: white;
+  border-radius: 8px;
+  color: #899cb1;
+  .table__tr {
+    width: 100%;
+    th {
+      cursor: pointer;
+    }
+    :last-child {
+      text-align: end;
+      padding-right: 40px;
+    }
+    :first-child {
+      padding-left: 40px;
+    }
+    th {
+      text-align: start;
+      padding: 0px 0px 20px 0px;
+    }
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+}

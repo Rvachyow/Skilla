@@ -1,0 +1,19 @@
+.container {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 4px 20px 4px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: black;
+  img {
+    width: 25px;
+    height: 25px;
+  }
+}
+.popUpItem {
+  :hover {
+    background-color: #c5cae9;
+  }
+}

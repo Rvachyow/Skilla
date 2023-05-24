@@ -1,0 +1,90 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  min-height: 64px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.userbar {
+  background-color: white;
+  color: #899cb1;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  box-shadow: 0px 4px 5px #e9edf3;
+}
+.userbar_items {
+  display: flex;
+  align-items: center;
+}
+.date {
+  margin-right: 86px;
+}
+.stats {
+  display: flex;
+  gap: 62px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .redT {
+    color: #ea1a4f;
+  }
+  .greenT {
+    color: #28a879;
+  }
+  .yellowT {
+    color: #ffd500;
+  }
+  .red {
+    background: #ea1a4f;
+  }
+  .green {
+    background: #28a879;
+  }
+  .yellow {
+    background: #ffd500;
+  }
+  span {
+    color: #122945;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    gap: 5px;
+  }
+  .line {
+    min-width: 156px;
+    height: 6px;
+    border-radius: 12px;
+    background-color: #dee6f5;
+    position: relative;
+    div {
+      position: absolute;
+      height: 6px;
+      left: 0;
+      width: 45px;
+      border-radius: 12px 0px 0px 12px;
+    }
+  }
+}
+
+.userData {
+  display: flex;
+  gap: 63px;
+  .avatar {
+    min-width: 40px;
+    min-height: 40px;
+  }
+  div {
+    display: flex;
+    align-items: center;
+  }
+  .v {
+    margin-left: 10px;
+  }
+}
